@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.1",
+    "ai": "^2.1.32",
+    "h3": "1.8.0-rc.2",
+    "nitropack": "2.5.2",
+    "nuxt": "^3.6.5",
+    "openai-edge": "^1.2.2"
+  },
+  "resolutions": {
+    "h3": "1.8.0-rc.2",
+    "nitropack": "2.5.2"
+  }
+}
